@@ -10,7 +10,7 @@ import subprocess #allows you to spawn new processes, connect to their input/out
 
 import os
 
-engine = pyttsx3.init('sapi5') #API produced by Microsoft for speech recognition and speech synthesis.
+fengine = pyttsx3.init('sapi5') #API produced by Microsoft for speech recognition and speech synthesis. .
 voices = engine.getProperty('voices')
 # print(voices[1].id)
 engine.setProperty('voice', voices[0].id)
