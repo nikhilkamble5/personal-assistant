@@ -1,6 +1,6 @@
 import pyttsx3  #  text to speech
 import pywhatkit #r sending messages automatically to someone's WhatsApp mobile number.
-import speech_recognition as sr  #  speechRecognition
+import speech_recognition as sr  # speechRecognition
 import datetime
 import wikipedia  # pip install wikipedia
 import webbrowser
